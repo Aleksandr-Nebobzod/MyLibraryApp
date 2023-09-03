@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+	
+	<Button
+		android:id="@+id/btnNewBook"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="New book to Library"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnAbout"
+		app:layout_constraintEnd_toEndOf="@+id/btnFavourites"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/btnFavourites"
+		app:layout_constraintTop_toBottomOf="@+id/btnFavourites" />
+	
+	<ImageView
+		android:id="@+id/imgLogo"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_marginTop="10dp"
+		android:src="@mipmap/keneks"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtAppName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:fontFamily="@font/amita"
+		android:text="My Gorgeous Library"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="@+id/imgLogo"
+		app:layout_constraintStart_toStartOf="@+id/imgLogo"
+		app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+	
+	<TextView
+		android:id="@+id/txtLicense"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="6dp"
+		android:text="by Heaven_rover with Meisam' direction"
+		android:textSize="10sp"
+		android:textStyle="italic"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+	
+	<Button
+		android:id="@+id/btnAllBooks"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="All Books"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnCurrent"
+		app:layout_constraintEnd_toEndOf="@+id/txtAppName"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/txtAppName"
+		app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
+	
+	<Button
+		android:id="@+id/btnCurrent"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:text="Currently Reading"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnWantRead"
+		app:layout_constraintEnd_toEndOf="@+id/btnAllBooks"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/btnAllBooks"
+		app:layout_constraintTop_toBottomOf="@+id/btnAllBooks" />
+	
+	<Button
+		android:id="@+id/btnRead"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="Read Already"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnFavourites"
+		app:layout_constraintEnd_toEndOf="@+id/btnWantRead"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/btnWantRead"
+		app:layout_constraintTop_toBottomOf="@+id/btnWantRead" />
+	
+	<Button
+		android:id="@+id/btnWantRead"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="Wish List"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnRead"
+		app:layout_constraintEnd_toEndOf="@+id/btnCurrent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/btnCurrent"
+		app:layout_constraintTop_toBottomOf="@+id/btnCurrent" />
+	
+	<Button
+		android:id="@+id/btnFavourites"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="See Your Favorites"
+		android:textAllCaps="false"
+		app:layout_constraintBottom_toTopOf="@+id/btnNewBook"
+		app:layout_constraintEnd_toEndOf="@+id/btnRead"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="@+id/btnRead"
+		app:layout_constraintTop_toBottomOf="@+id/btnRead" />
+	
+	<Button
+		android:id="@+id/btnAbout"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="3dp"
+		android:text="About"
+		app:layout_constraintBottom_toTopOf="@+id/txtLicense"
+		app:layout_constraintEnd_toEndOf="@+id/btnFavourites"
+		app:layout_constraintStart_toStartOf="@+id/btnFavourites" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

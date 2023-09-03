@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Моя Библиотека</string>
+	<string name="act_main">Главное меню</string>
+	<string name="act_all">Все</string>
+	<string name="act_current">Читаемые</string>
+	<string name="act_wanted">К прочтению</string>
+	<string name="act_already_read">Прочтенные</string>
+	<string name="act_favourites">Избранные</string>
+	<string name="s_yes">Да</string>
+	<string name="s_no">Нет</string>
+	<string name="s_visit_site">На сайт</string>
+	<string name="discovered_in_year">Год ознакомления</string>
+	<string name="year_2023">2023</string>
+	<string name="warn_no_book">Книга не найдена</string>
+</resources>

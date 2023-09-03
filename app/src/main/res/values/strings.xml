@@ -1,0 +1,21 @@
+<resources>
+	<string name="app_name">My Library</string>
+	
+	<string name="act_main">Main</string>
+	<string name="act_all">All</string>
+	<string name="act_current">Currently Reading</string>
+	<string name="act_wanted">Wish List</string>
+	<string name="act_already_read">Already Read</string>
+	<string name="act_favourites">Favourites</string>
+	
+	<string name="s_yes">Yes</string>
+	<string name="s_no">No</string>
+	<string name="s_visit_site">Visit Site</string>
+	
+	<string name="discovered_in_year">Discovered in</string>
+	<string name="year_2023">2023</string>
+	
+	<string name="warn_no_book">Can\'t find book</string>
+	
+	
+</resources>
