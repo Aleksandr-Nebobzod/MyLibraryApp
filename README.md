@@ -1,5 +1,5 @@
 # MyLibraryApp
-it's a traning asset done throughout Mesam's online course you can reach at [youtube](https://www.youtube.com/watch?v=fis26HvvDII)
+It's a traning asset which's done throughout Mesam's online course you can reach at [youtube](https://www.youtube.com/watch?v=fis26HvvDII)
 or an [official website](https://freeCodeCamp.org)
 
 ## Additional functionality:
